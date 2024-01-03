@@ -26,9 +26,9 @@ If needed you can build a docker container with the provided Dockerfile.
 
 ```
 
-## Sample output for two subnets
+## Sample output for two IP Addresses
 ```
-$ python3 ./input-ovh-networkInterfaceController.py 
+$ python3 ./vac-traffic.py 192.0.2.1/32 198.51.100.1/32
 ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274200000000000
 ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=141733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274500000000000
 ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=143733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274800000000000
