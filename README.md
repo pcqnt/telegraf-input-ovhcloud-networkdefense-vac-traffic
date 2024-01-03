@@ -1,5 +1,5 @@
 # telegraf-input-ovhcloud-networkdefense-vac-traffic
-Python script to parse the output of [OVHcloud VAC traffic statistics][https://api.ovh.com/console-preview/?section=%2FnetworkDefense&branch=v2#get-/networkDefense/vac/traffic] into the [InfluxDB line protocol](https://docs.influxdata.com/influxdb/latest/reference/syntax/line-protocol/). Intended to be run via Telegraf's [exec](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/exec) input plugin.
+Python script to parse the output of [OVHcloud VAC traffic statistics](https://api.ovh.com/console-preview/?section=%2FnetworkDefense&branch=v2#get-/networkDefense/vac/traffic) into the [InfluxDB line protocol](https://docs.influxdata.com/influxdb/latest/reference/syntax/line-protocol/). Intended to be run via Telegraf's [exec](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/exec) input plugin.
 
 ## Requirements
 OVHcloud Python module (pip install ovh). Other requirements are listed in requirements.txt.
