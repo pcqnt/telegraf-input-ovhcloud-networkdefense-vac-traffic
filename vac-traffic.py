@@ -8,6 +8,7 @@ import argparse
 import sys
 import ipaddress
 from datetime import datetime, timedelta, timezone
+from dateutil.parser import parse
 
 def main():    
     parser = argparse.ArgumentParser(description='OVHcloud VAC Traffic API Poller')
@@ -51,7 +52,7 @@ def main():
             sys.exit()
         i=0
         for timestamp in result['timestamps']:
-            unixtimestamp= datetime.fromisoformat(timestamp).timestamp()*1000*1000*1000
+            unixtimestamp= parse(timestamp).timestamp()*1000*1000*1000
             print('{},subnet={} bps_passed={},bps_dropped={},pps_passed={},pps_dropped={} {:.0f}'\
                 .format(args.measurementname, subnet, \
                         result['bps']['passed'][i], result['bps']['dropped'][i], \
