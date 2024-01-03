@@ -30,16 +30,16 @@ If needed you can build a docker container with the provided Dockerfile.
 ```
 $ python3 ./input-ovh-networkInterfaceController.py 
 ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274200000000000
-ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274500000000000
-ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274800000000000
-ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704275100000000000
+ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=141733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274500000000000
+ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=143733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704274800000000000
+ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=13733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704275100000000000
 ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704275400000000000
-ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704275700000000000
-ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276000000000000
+ovh-vac-traffic,subnet=192.0.2.1/32 bps_passed=117433,bps_dropped=0,pps_passed=260,pps_dropped=0 1704275700000000000
+ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=127733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276000000000000
 ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276300000000000
-ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276600000000000
+ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=137733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276600000000000
 ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704276900000000000
-ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704277200000000000
+ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=47733,bps_dropped=0,pps_passed=240,pps_dropped=0 1704277200000000000
 ovh-vac-traffic,subnet=198.51.100.1/32 bps_passed=147733,bps_dropped=0,pps_passed=260,pps_dropped=0 1704277500000000000
 
 ```
