@@ -14,10 +14,10 @@ def main():
     parser = argparse.ArgumentParser(description='OVHcloud VAC Traffic API Poller')
     parser.add_argument('subnet',help='Target IP in format 192.0.2.1/32', type=str, nargs='+')
     parser.add_argument('--hourly',help='Poll for last hour (default)', action='store_true')
-    parser.add_argument('--daily',help='Poll for 24 hours', action='store_true')
+    parser.add_argument('--daily',help='Poll for last 24 hours', action='store_true')
     parser.add_argument('--weekly',help='Poll for last 7 days', action='store_true')
-    parser.add_argument('--measurementname',help="InfluxDB lineformat measurement name, defaults to 'ovh-vac-traffic'",default='ovh-vac-traffic')
-    parser.add_argument('--endpoint',help="OVHcloud API endpoint, defaults to 'ovh-eu'", default='ovh-eu')
+    parser.add_argument('--measurementname',help='InfluxDB lineformat measurement name, defaults to "ovh-vac-traffic"',default='ovh-vac-traffic')
+    parser.add_argument('--endpoint',help='OVHcloud API endpoint, defaults to "ovh-eu"', default='ovh-eu')
     parser.add_argument('--verbose',action='store_true')
     args= parser.parse_args()
 
