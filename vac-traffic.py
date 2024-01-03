@@ -58,6 +58,6 @@ def main():
                         result['bps']['passed'][i], result['bps']['dropped'][i], \
                             result['pps']['passed'][i], result['pps']['dropped'][i], \
                                 unixtimestamp))
-        i+=1
+            i+=1
 if __name__ == '__main__':
     main()
