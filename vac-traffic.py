@@ -34,7 +34,7 @@ def main():
         try:
             ipaddress.ip_network(subnet)
         except ValueError:
-            logging.error('--subnet %s is not an ip network', args.subnet)
+            logging.error('Subnet %s is not an ip network', subnet)
             sys.exit()
 
     client = ovh.Client(
